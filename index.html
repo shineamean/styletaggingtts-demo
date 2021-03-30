@@ -64,14 +64,6 @@
 			</div> -->
 
         <!-- Paper section -->
-        <div class='row text-center'>
-            <!-- thumbnail of paper on left side of abstract -->
-            <div class="col" style="margin-top:20px">
-                <a class="h5" href="https://github.com/ANLGBOY/WaveNODE/" style="margin-left:10px">
-                    <span>[Code]</span>
-                </a>
-            </div>
-        </div>
         <div>
             <hr>
             <div class='col text-center'>
@@ -79,17 +71,7 @@
 
                 <div class="container" style="max-width:850px; margin-top: 20px; margin-bottom: 40px">
                     <p style='line-height:1.3; font-size:large; text-align: justify'>
-                        In recent years, various flow-based generative models have been proposed to generate
-                        high-fidelity waveforms in real-time. However, these models require either
-                        a well-trained teacher network or a number of flow steps making them memory-inefficient.
-                        In this paper, we propose a novel generative model called WaveNODE which exploits
-                        a continuous normalizing flow for speech synthesis. Unlike the conventional models,
-                        WaveNODE places no constraint on the function used for flow operation,
-                        thus allowing the usage of more flexible and complex functions.
-                        Moreover, WaveNODE can be optimized to maximize the likelihood without requiring
-                        any teacher network or auxiliary loss terms. We experimentally show that WaveNODE achieves
-                        comparable performance in terms of mean opinion score (MOS) and conditional log-likelihood (CLL)
-                        with fewer parameters compared to the existing models.
+                        As recent text-to-speech (TTS) systems have been rapidly improved in speech quality and generation speed, many researchers now focus on a more challenging issue: expressive TTS. To control speaking styles, existing expressive TTS models use categorical style index or reference speech as style input. In this work, we propose StyleTagging-TTS (ST-TTS), a novel expressive TTS model that utilizes a style tag written in natural language. Using a style-tagged TTS dataset and a pre-trained language model, we modeled the relationship between linguistic embedding and speaking style domain, which enables our model to work even with style tags unseen during training. As style tag is written in natural language, it can control speaking style in a more intuitive, interpretable, and scalable way compared with style index or reference speech. In addition, in terms of model architecture, we propose an efficient non-autoregressive (NAR) TTS architecture with single-stage training. The experimental result shows that ST-TTS outperforms the existing expressive TTS model, Tacotron2-GST in speech quality and expressiveness.
                     </p>
                 </div>
             </div>
